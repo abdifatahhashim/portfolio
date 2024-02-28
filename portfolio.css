@@ -239,7 +239,7 @@ content: '';
     text-decoration: none;
     z-index: 1;
     overflow: hidden;
-    transition: 5s;
+    transition: .5s;
 }
 .home-sci a:hover{
     color: #081b29;
