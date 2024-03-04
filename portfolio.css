@@ -6,7 +6,7 @@
     font-family: 'Poppins',sans-serif;
 }
 body{
-    /* background: #081b29; */
+     background: #081b29;
      color:#ededed; 
 }
 .header{
@@ -83,7 +83,7 @@ body{
     line-height: 1.2;
 
 }
-.home-content h1 ::before {
+.home-content h1::before {
     content: '';
     position: absolute;
     top: 0;
@@ -100,7 +100,7 @@ body{
     font-weight: 700;
     color: #00abf0;
 }
-.home-content h3 ::before {
+.home-content h3::before {
     content: '';
     position: absolute;
     top: 0;
@@ -117,7 +117,7 @@ body{
     margin: 20px 0 40px;
 
 }
-.home-content p ::before {
+.home-content p::before {
     content: '';
     position: absolute;
     top: 0;
@@ -137,7 +137,7 @@ body{
     height: 50px;
     
 }
-.home-content .btn-box ::before {
+.home-content .btn-box::before {
     content: '';
     position: absolute;
     top: 0;
@@ -167,7 +167,7 @@ body{
     letter-spacing: 1px;
     z-index: 1;
     overflow: hidden;
-    transition: 5s;
+    transition: .5s;
 
 }
 .btn-box a:hover {
@@ -209,7 +209,7 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.home-sci::before {
+ .home-sci::before {
 content: '';
     position: absolute;
     top: 0;
@@ -220,7 +220,7 @@ content: '';
     animation: showRight 1s ease forwards;
     animation-delay: 2.5s;
     z-index: 2;
-}
+} 
 
 .home-sci a {
     position: relative;
@@ -277,9 +277,9 @@ content: '';
  pointer-events: none;
 } 
 
- .home-imgHover {
+ .home-imgHover:hover {
      background: #081b29; 
-    opacity: .8;
+     opacity: .8;
 
 }
 .home-imgHover::after {
@@ -287,12 +287,12 @@ content: '';
     position: absolute;
     top: 0;
     left: 0;
-    width: 0;
+    width: 120;
     height: 100%;
-    background: #00abf0;
+    background: #081b29;
     animation: showRight 1s ease forwards;
     animation-delay: 3s;
-    z-index: -1;
+    z-index: 100;
     
 }
 
